@@ -19,12 +19,12 @@ export class TodosComponent implements OnInit {
   ngOnInit(): void {
     this.todos = [
         {
-          content: 'First todo',
+          content: 'Create project',
           completed: false
         },
         {
-          content: 'Second todo',
-          completed: true
+          content: 'Assignment',
+          completed: false
         }
 
     ]
